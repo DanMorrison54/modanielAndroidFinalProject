@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_weights.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_weights.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_slideshow.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_gallery.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_cycling.xml",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_cycling.xml"
+    }
+]
