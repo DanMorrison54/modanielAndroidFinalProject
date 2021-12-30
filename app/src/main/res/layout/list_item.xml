@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="15sp"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/NameText"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:text="Line 1"
+        android:textColor="@android:color/black"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/numText1"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_toEndOf="@id/NameText"
+        android:layout_marginLeft="100dp"
+        android:text="Line 1"
+        android:textColor="@android:color/black"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/numTextDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_toEndOf="@id/numText1"
+        android:layout_marginLeft="200dp"
+        android:text="Line 1"
+        android:textColor="@android:color/black"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/numText2"
+        android:layout_width="wrap_content"
+        android:layout_height="28sp"
+        android:layout_toEndOf="@id/numTextDecimal"
+        android:layout_marginLeft="300dp"
+        android:text="Line 1"
+        android:textColor="@android:color/black"
+        android:textSize="7sp"
+        android:textStyle="bold" />
+
+</androidx.cardview.widget.CardView>

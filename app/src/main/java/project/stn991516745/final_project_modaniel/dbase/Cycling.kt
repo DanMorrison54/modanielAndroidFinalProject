@@ -3,9 +3,7 @@ package project.stn991516745.final_project_modaniel.dbase
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-
-class Cycling {
-    @Entity(tableName = "cycling")
+@Entity(tableName = "cycling")
     data class Cycling(
         @PrimaryKey(autoGenerate = true)
         var id: Long,
@@ -16,6 +14,5 @@ class Cycling {
         @ColumnInfo(name = "time")
         var minutes: Double,
         @ColumnInfo(name = "maxSpeed")
-        var minWeightsAmt: Int
+        var maxSpeed: Int
     )
-}

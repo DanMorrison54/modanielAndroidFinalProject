@@ -65,6 +65,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array selections
 attr SharedValue
 attr SharedValueId
 attr action
@@ -1867,6 +1868,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable selection_band_overlay
 drawable side_nav_bar
 drawable test_custom_background
 drawable test_level_drawable
@@ -1879,6 +1881,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id NameText
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -2016,6 +2019,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteCycles
+id deleteWeights
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2045,6 +2050,10 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextNumber
+id editTextNumber2
+id editTextNumberDecimal
+id editTextPersonName
 id edit_query
 id elastic
 id end
@@ -2170,12 +2179,12 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nav_controller_view_tag
-id nav_gallery
+id nav_cycling
 id nav_home
 id nav_host_fragment_container
 id nav_host_fragment_content_main
-id nav_slideshow
 id nav_view
+id nav_weights
 id navigation_bar_item_icon_view
 id navigation_bar_item_labels_group
 id navigation_bar_item_large_label_view
@@ -2192,6 +2201,9 @@ id north
 id notification_background
 id notification_main_column
 id notification_main_column_container
+id numText1
+id numText2
+id numTextDecimal
 id off
 id on
 id onInterceptTouchReturnSwipe
@@ -2217,6 +2229,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycleView
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2264,6 +2277,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner
 id spline
 id split_action_bar
 id spread
@@ -2283,6 +2297,7 @@ id staticPostLayout
 id stop
 id stretch
 id submenuarrow
+id submit
 id submit_area
 id supportScrollUp
 id tabMode
@@ -2449,9 +2464,10 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout fragment_gallery
+layout fragment_cycling
 layout fragment_home
-layout fragment_slideshow
+layout fragment_weights
+layout list_item
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -2594,9 +2610,9 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
-string menu_gallery
+string menu_cycles
 string menu_home
-string menu_slideshow
+string menu_weights
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description

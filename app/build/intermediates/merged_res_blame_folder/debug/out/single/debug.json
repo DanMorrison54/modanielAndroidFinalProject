@@ -1,13 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_slideshow.xml.flat",
-        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_slideshow.xml"
-    },
-    {
-        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_gallery.xml.flat",
-        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_gallery.xml"
-    },
-    {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
@@ -18,6 +10,10 @@
     {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_menu_gallery.xml.flat",
         "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\drawable\\ic_menu_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_list_item.xml.flat",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
@@ -76,6 +72,10 @@
         "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_weights.xml.flat",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_weights.xml"
+    },
+    {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\menu_main.xml.flat",
         "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\menu\\main.xml"
     },
@@ -90,6 +90,10 @@
     {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_cycling.xml.flat",
+        "source": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\src\\main\\res\\layout\\fragment_cycling.xml"
     },
     {
         "merged": "C:\\Users\\owner\\AndroidStudioProjects\\final_project_modaniel\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",

@@ -3,7 +3,6 @@ package project.stn991516745.final_project_modaniel.dbase
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-class FreeWeights {
     @Entity(tableName = "weights")
     data class FreeWeights(
     @PrimaryKey(autoGenerate = true)
@@ -17,4 +16,3 @@ class FreeWeights {
     @ColumnInfo(name = "minWeightsAmt")
     var minWeightsAmt: Int
     )
-}

@@ -12,7 +12,7 @@
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="4dp"
         app:defaultNavHost="true"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -20,19 +20,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <Button
-        android:id="@+id/delete_cycles"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="delete_cycles"
-        tools:layout_editor_absoluteX="14dp"
-        tools:layout_editor_absoluteY="522dp" />
-
-    <Button
-        android:id="@+id/delete_weights"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Remove_Weights"
-        tools:layout_editor_absoluteX="197dp"
-        tools:layout_editor_absoluteY="522dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

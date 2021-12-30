@@ -1,10 +1,8 @@
 package project.stn991516745.final_project_modaniel.dbase
 
-import androidx.room.Delete
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
+import androidx.room.*
 
+@Dao
 interface ExerciseDao {
     @Query("SELECT * FROM CYCLING")
     fun getAllCycle(): List<Cycling>
@@ -16,6 +14,7 @@ interface ExerciseDao {
     //deleting all users from db
     @Delete
     fun deleteAllCyle(User : List<Cycling>)
+
     @Delete
     fun deleteAllWeights(User: List<FreeWeights>)
 

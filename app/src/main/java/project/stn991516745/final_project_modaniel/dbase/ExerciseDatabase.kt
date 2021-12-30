@@ -3,7 +3,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import android.content.Context
-@Database(entities = [FreeWeights::class,Cycling::class], version = 1)
+@Database(entities = [FreeWeights::class,Cycling::class], version = 2, exportSchema=false)
 abstract class ExerciseDatabase: RoomDatabase() {
     abstract fun excerciseDao(): ExerciseDao
 

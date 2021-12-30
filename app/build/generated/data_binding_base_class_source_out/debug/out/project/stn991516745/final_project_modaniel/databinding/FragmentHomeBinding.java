@@ -4,6 +4,9 @@ package project.stn991516745.final_project_modaniel.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,10 +23,46 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button deleteCycles;
+
+  @NonNull
+  public final Button deleteWeights;
+
+  @NonNull
+  public final EditText editTextNumber;
+
+  @NonNull
+  public final EditText editTextNumber2;
+
+  @NonNull
+  public final EditText editTextNumberDecimal;
+
+  @NonNull
+  public final EditText editTextPersonName;
+
+  @NonNull
+  public final Spinner spinner;
+
+  @NonNull
+  public final Button submit;
+
+  @NonNull
   public final TextView textHome;
 
-  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull TextView textHome) {
+  private FragmentHomeBinding(@NonNull ConstraintLayout rootView, @NonNull Button deleteCycles,
+      @NonNull Button deleteWeights, @NonNull EditText editTextNumber,
+      @NonNull EditText editTextNumber2, @NonNull EditText editTextNumberDecimal,
+      @NonNull EditText editTextPersonName, @NonNull Spinner spinner, @NonNull Button submit,
+      @NonNull TextView textHome) {
     this.rootView = rootView;
+    this.deleteCycles = deleteCycles;
+    this.deleteWeights = deleteWeights;
+    this.editTextNumber = editTextNumber;
+    this.editTextNumber2 = editTextNumber2;
+    this.editTextNumberDecimal = editTextNumberDecimal;
+    this.editTextPersonName = editTextPersonName;
+    this.spinner = spinner;
+    this.submit = submit;
     this.textHome = textHome;
   }
 
@@ -54,13 +93,63 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.deleteCycles;
+      Button deleteCycles = ViewBindings.findChildViewById(rootView, id);
+      if (deleteCycles == null) {
+        break missingId;
+      }
+
+      id = R.id.deleteWeights;
+      Button deleteWeights = ViewBindings.findChildViewById(rootView, id);
+      if (deleteWeights == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextNumber;
+      EditText editTextNumber = ViewBindings.findChildViewById(rootView, id);
+      if (editTextNumber == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextNumber2;
+      EditText editTextNumber2 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextNumber2 == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextNumberDecimal;
+      EditText editTextNumberDecimal = ViewBindings.findChildViewById(rootView, id);
+      if (editTextNumberDecimal == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextPersonName;
+      EditText editTextPersonName = ViewBindings.findChildViewById(rootView, id);
+      if (editTextPersonName == null) {
+        break missingId;
+      }
+
+      id = R.id.spinner;
+      Spinner spinner = ViewBindings.findChildViewById(rootView, id);
+      if (spinner == null) {
+        break missingId;
+      }
+
+      id = R.id.submit;
+      Button submit = ViewBindings.findChildViewById(rootView, id);
+      if (submit == null) {
+        break missingId;
+      }
+
       id = R.id.text_home;
       TextView textHome = ViewBindings.findChildViewById(rootView, id);
       if (textHome == null) {
         break missingId;
       }
 
-      return new FragmentHomeBinding((ConstraintLayout) rootView, textHome);
+      return new FragmentHomeBinding((ConstraintLayout) rootView, deleteCycles, deleteWeights,
+          editTextNumber, editTextNumber2, editTextNumberDecimal, editTextPersonName, spinner,
+          submit, textHome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
